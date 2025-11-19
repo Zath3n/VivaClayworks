@@ -19,28 +19,29 @@ body {
   color: #fff;
 }
 
-/* -----FONTS------ */
+/*--------- FONTS ---------*/
 
 h1 {
-	font-size: 78px;
+	font-size: 40px;
 	line-height: 100%;
 	font-weight: 700;
 	letter-spacing: -2px;
-	color: white;
+	color: black;
+  margin-bottom: 2px;
 }
 
 h2 {
-	font-size: 56px;
+	font-size: 25px;
 	line-height: 120%;
 	font-weight: 700;
 	letter-spacing: -1px;
-	color: white;
+	color: black;
 	margin-top: 0px;
 	margin-bottom: 16px;
 }
 
 h3 {
-	font-size: 32px;
+	font-size: 15px;
 	line-height: 120%;
 	font-weight: 700;
 	letter-spacing: -1px;
@@ -60,7 +61,7 @@ li {
 
 }
 
-/* -----Navigation Bar------ */
+/*--------- Navigation Bar ---------*/
 
 .navbar {
   position: absolute;
@@ -76,30 +77,30 @@ li {
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 32px;
   font-weight: bold;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 50px;
+  gap: 30px;
 }
 
 .nav-links a {
   color: #fff;
   text-decoration: none;
   font-weight: 500;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.3s;
 }
 
 .nav-links a:hover {
   opacity: 0.7;
 }
 
-/* ---------------------------- */
-/* HERO SECTION                 */
-/* ---------------------------- */
+
+/*--------- HERO SECTION ---------*/
+
 
 .hero {
   position: relative;
@@ -108,7 +109,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 6rem;
+  padding-left: 150px;
   background-position: center;
 	background-attachment: fixed;
 	background-size: cover	;
@@ -135,19 +136,21 @@ li {
 }
 
 .hero-content h1 {
-  font-size: 3.5rem;
+  font-size: 75px;
   font-weight: 700;
-  margin-bottom: 0.5rem;
+  margin-bottom: 2px;
+  color: white;
 }
 
 .hero-content h2 {
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: white;
 }
 
 .button {
   display: inline-block;
-  padding: 0.75rem 1.75rem;
+  padding: 12px 25px;
   border: 2px solid #fff;
   border-radius: 4px;
   text-decoration: none;
@@ -166,7 +169,7 @@ li {
   bottom: 20px;
   width: 100%;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 14px;
   opacity: 0.85;
   z-index: 2;
 }
