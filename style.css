@@ -145,7 +145,7 @@ li {
   margin-bottom: 2rem;
 }
 
-.btn {
+.button {
   display: inline-block;
   padding: 0.75rem 1.75rem;
   border: 2px solid #fff;
@@ -156,7 +156,7 @@ li {
   transition: background 0.3s ease, color 0.3s ease;
 }
 
-.btn:hover {
+.button:hover {
   background: #fff;
   color: #000;
 }
