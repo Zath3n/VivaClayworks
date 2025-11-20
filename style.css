@@ -184,6 +184,12 @@ li {
   z-index: 2;
 }
 
+/* Text Colour */
+
+.text-white {
+  color: white;
+}
+
 /* ----INDIVIDUAL STYLES---- */
 
 .card-image{
