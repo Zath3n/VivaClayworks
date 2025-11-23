@@ -209,4 +209,8 @@ li {
   color: black;
 }
 
+
+.card-text {
+  border-bottom: 4px solid white;
+}
  
