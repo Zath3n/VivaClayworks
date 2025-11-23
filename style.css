@@ -112,7 +112,7 @@ li {
 /*--------- HERO SECTION ---------*/
 
 
-.hero {
+.hero-index {
   position: relative;
   height: 100vh;
   background: url("images/HeroImage.png");
@@ -122,6 +122,42 @@ li {
   background-position: center;
 	background-attachment: fixed;
 	background-size: cover	;
+}
+
+.hero-pottery {
+  position: relative;
+  height: 100vh;
+  background: url("images/PotteryClass.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover  ;
+}
+
+.hero-aboutUs {
+  position: relative;
+  height: 100vh;
+  background: url("images/HeroImage.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover  ;
+}
+
+.hero-contactUs {
+  position: relative;
+  height: 100vh;
+  background: url("images/HeroImage.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover  ;
 }
 
 .hero-overflow{
