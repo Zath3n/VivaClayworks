@@ -19,8 +19,6 @@ body {
   color: #fff;
 }
 
-/* ----Font Color---- */
-
 
 /* ----BACKGROUNDS---- */
 
@@ -31,7 +29,6 @@ body {
   .bg-white {
     background-color: #FFF4E2;
   }
-
 
 /*--------- FONTS ---------*/
 
@@ -114,7 +111,6 @@ body {
   .nav-links a:hover {
     opacity: 0.7;
   }
-
 
 /*--------- HERO SECTION ---------*/
 
@@ -376,7 +372,6 @@ body {
     color: black;
   }
 
-
 /* ----Do Note SECTION---- */
   .do-note h2 {
     text-align: center;
@@ -434,83 +429,79 @@ body {
     font-weight: 700;
   }
 
-
 /* ----INDIVIDUAL STYLES---- */
 
-  .left{
-    align-items: left;
-  }
+    .left{
+      align-items: left;
+    }
 
-  .center-text {
-  text-align: center;
-  } 
+    .center-text {
+    text-align: center;
+    } 
 
-  .hours-note {
-    margin-top: 15px;
-    font-size: 12px;
-    opacity: 0.75;
-    margin-bottom: 25px;
-  }
+    .hours-note {
+      margin-top: 15px;
+      font-size: 12px;
+      opacity: 0.75;
+      margin-bottom: 25px;
+    }
 
-  .card-image-aboutUs{
-    object-fit: cover;
-    aspect-ratio: 7/8;
-    width: 100%;
+    .card-image-aboutUs{
+      object-fit: cover;
+      aspect-ratio: 7/8;
+      width: 100%;
 
-    
-  }
+      
+    }
 
-   /* Button at bottom */
-  .card-btn-hours {
-    margin-top: 25px;
-    background: rgba(0, 0, 0, 0.85);
-    color: white;
-    padding: 12px 30px;
-    border-radius: 12px;
-    border: 2px solid white;
-    font-size: 18px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: 0.2s ease;
-    pointer-events: auto;
-  }
-
-
-  .card-btn-hours:hover {
-    background: white;
-    color: black;
-  }
+    .card-btn-hours {
+      margin-top: 25px;
+      background: rgba(0, 0, 0, 0.85);
+      color: white;
+      padding: 12px 30px;
+      border-radius: 12px;
+      border: 2px solid white;
+      font-size: 18px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.2s ease;
+      pointer-events: auto;
+    }
 
 
-
-  .card-text {
-    border-bottom: 4px solid white;
-  }
-   
-
-  .rounded-img {
-    border-radius: 100px; 
-    overflow: hidden;     
-    display: block;
-  }
+    .card-btn-hours:hover {
+      background: white;
+      color: black;
+    }
 
 
-  .black-button .btn {
-    background: white;
-    border: 1px solid #000;
-    border-radius: 10px;   
-    padding: 12px 35px;
-    font-size: 24px;
-    color: #000;           
-    text-decoration: none;   
-  }
 
-  .black-button .btn:hover {
-    background: #000;
-    color: #fff;
-  }
+    .card-text {
+      border-bottom: 4px solid white;
+    }
+     
+
+    .rounded-img {
+      border-radius: 100px; 
+      overflow: hidden;     
+      display: block;
+    }
 
 
+    .black-button .btn {
+      background: white;
+      border: 1px solid #000;
+      border-radius: 10px;   
+      padding: 12px 35px;
+      font-size: 24px;
+      color: #000;           
+      text-decoration: none;   
+    }
+
+    .black-button .btn:hover {
+      background: #000;
+      color: #fff;
+    }
 
 /* ----FOOTER STYLES---- */
 
@@ -806,7 +797,6 @@ body {
   }
 
 
-  /* Product card */
   .product-card {
     margin-top: 25px;
     position: relative;
@@ -851,6 +841,60 @@ body {
     font-size: 22px;
   }
 
+  .all-card-image-wrap {
+      position: relative;
+      border-radius: 20px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: block;
+  }
+
+/* Make sure the image fills the container */
+  .all-card-image {
+      width: 100%;
+      height: auto; /* allow natural height */
+      display: block;
+      transition: transform 0.3s ease;
+  }
+
+  .All-Classes-Section h3{
+    margin-top: 15px;
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .All-Classes-Section p{
+    font-size: 20px;
+    margin-bottom: 80px;
+    margin-top: -50px;
+    text-align: center;
+    color: black;
+  }
+
+  /* Overlay for "View" text */
+  .All-Classes-Section .card-overlay {
+      position: absolute;
+
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+      font-weight: 800;
+      font-size: 32px;
+      opacity: 0;
+  }
+
+  /* Hover effects */
+  .all-card-image-wrap:hover {
+      border: 4px solid grey;
+  }
+
+  .all-card-image-wrap:hover .card-overlay {
+      opacity: 1; /* show overlay */
+  }
+
 /* ----Workshop Annoucements---- */
 
 
@@ -870,34 +914,19 @@ body {
   }
 
 
-/* ----All Classes Annoucements---- */
-
-
-  .All-Classes-Section h3{
-    margin-top: 10px;
-    font-size: 32px;
-    font-weight: 900;
-    text-align: center;
-  }
-
-  .All-Classes-Section p{
-    margin-top: -30px;
-    margin-bottom: 40px;
-    color: black;
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-  }
-
-  .all-card-image{
-    width: 100%;
-    height: 10%;
-    object-fit: cover;
-    display: block;
-  }
-
-  .all-card-image-wrap {
+.all-card-image-wrap {
     position: relative;
-    border-radius: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.all-card-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
 
 
